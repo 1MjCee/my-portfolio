@@ -1,25 +1,47 @@
-// src/app/page.jsx
 import About from "@/components/About";
 import Header from "@/components/Header";
 import Hero from "@/components/Hero";
 import Projects from "@/components/Projects";
 import Footer from "@/components/Footer";
+import Contact from "@/components/Contact";
 
 export default function Home() {
   return (
-    <div className="flex flex-col min-h-screen">
-      {/* Header spans full width */}
+    <>
+      {/* Header component */}
       <Header />
-      
-      {/* Main content - needs explicit centering */}
-      <main className="flex-grow">
-        {/* Each section is full width but content is centered */}
-        <Hero />
-        <About />
-        <Projects />
+
+      {/* Main content */}
+      <main>
+        {/* Hero section */}
+        <section id="hero">
+          <Hero />
+        </section>
+
+        {/* About section */}
+        <section id="about" className="py-16">
+          <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <About />
+          </div>
+        </section>
+
+        {/* Projects section */}
+        <section id="projects" className="bg-gray-100 py-16">
+          <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <Projects />
+          </div>
+        </section>
+
+        {/* Contact section */}
+        <section id="contact" className="py-16">
+          <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <Contact />
+          </div>
+        </section>
       </main>
 
+      {/* Footer */}
       <Footer />
-    </div>
+    </>
   );
 }
