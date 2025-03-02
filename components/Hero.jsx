@@ -8,7 +8,7 @@ import Link from "next/link";
 const Hero = () => {
   return (
     <section className="min-h-screen flex items-center bg-gradient-to-br from-primary/90 via-primary/95 to-primary-foreground/90 text-white py-16 lg:py-0">
-      <div className="container mx-auto max-w-screen-xl px-6 lg:px-8">
+      <div className="container mx-auto max-w-screen-3xl px-6 lg:px-8">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-16 items-center">
           {/* Text Content */}
           <motion.div

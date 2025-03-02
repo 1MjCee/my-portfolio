@@ -57,7 +57,7 @@ const Header = () => {
         isScrolled ? "bg-background/90 shadow-lg py-3" : "bg-transparent py-6"
       }`}
     >
-      <div className="container max-w-screen-xl mx-auto px-6 lg:px-8">
+      <div className="container max-w-screen-3xl mx-auto px-6 lg:px-8">
         <div className="flex justify-between items-center">
           <Link
             href="/"

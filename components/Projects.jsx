@@ -182,9 +182,9 @@ const Projects = () => {
   return (
     <section
       id="projects"
-      className="py-24 bg-gradient-to-b from-white to-slate-50"
+      className="py-24 bg-gradient-to-b w-full from-white to-slate-50"
     >
-      <div className="container mx-auto px-6 lg:px-8">
+      <div className="container mx-auto max-w-screen-3xl p-3">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -221,7 +221,7 @@ const Projects = () => {
               value={category.value}
               className="mt-0"
             >
-              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
                 {allProjects
                   .filter(
                     (project) =>

@@ -44,7 +44,7 @@ const About = () => {
       id="about"
       className="w-full py-24 bg-gradient-to-b from-slate-50 to-white"
     >
-      <div className="container max-w-screen-xl mx-auto px-6 lg:px-8">
+      <div className="container max-w-screen-3xl mx-auto">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
