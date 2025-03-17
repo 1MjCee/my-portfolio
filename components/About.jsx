@@ -158,35 +158,35 @@ const About = () => {
                     <TabsList className="w-full mb-6 grid grid-cols-3 md:grid-cols-5">
                       <TabsTrigger
                         value="languages"
-                        className="flex items-center gap-2"
+                        className="flex items-center gap-2 cursor-pointer"
                       >
                         <Terminal className="h-4 w-4" />
                         <span className="hidden md:inline">Languages</span>
                       </TabsTrigger>
                       <TabsTrigger
                         value="frameworks"
-                        className="flex items-center gap-2"
+                        className="flex items-center gap-2 cursor-pointer"
                       >
                         <Code className="h-4 w-4" />
                         <span className="hidden md:inline">Frameworks</span>
                       </TabsTrigger>
                       <TabsTrigger
                         value="tools"
-                        className="flex items-center gap-2"
+                        className="flex items-center gap-2 cursor-pointer"
                       >
                         <Server className="h-4 w-4" />
                         <span className="hidden md:inline">Tools</span>
                       </TabsTrigger>
                       <TabsTrigger
                         value="databases"
-                        className="flex items-center gap-2"
+                        className="flex items-center gap-2 cursor-pointer"
                       >
                         <Database className="h-4 w-4" />
                         <span className="hidden md:inline">Databases</span>
                       </TabsTrigger>
                       <TabsTrigger
                         value="areas"
-                        className="flex items-center gap-2"
+                        className="flex items-center gap-2 cursor-pointer"
                       >
                         <BrainCircuit className="h-4 w-4" />
                         <span className="hidden md:inline">AI/ML</span>

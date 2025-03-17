@@ -92,7 +92,7 @@ const Hero = () => {
               >
                 {/* Profile Image */}
                 <img
-                  src="/profile.jpg"
+                  src="/profile/profile.png"
                   alt="Julius Matheka Charles"
                   className="w-full h-full object-cover"
                 />
