@@ -15,6 +15,10 @@ import { motion } from "framer-motion";
 const Header = () => {
   const [isScrolled, setIsScrolled] = useState(false);
 
+  // URL to your resume PDF
+  const resumeUrl =
+    "https://drive.google.com/file/d/1sQdP3x6_eFFF52khwHQBUoUOjZIHI39r/view?usp=sharing";
+
   // Handle scroll event
   useEffect(() => {
     const handleScroll = () => {
@@ -97,6 +101,7 @@ const Header = () => {
             ))}
             <motion.div variants={itemVariants}>
               <Button
+                onClick={() => window.open(resumeUrl, "_blank")} // Open PDF in new tab
                 variant="secondary"
                 size="lg"
                 className="font-medium text-lg px-6 rounded-lg shadow-md hover:shadow-lg flex items-center gap-2 transition-all"
@@ -138,7 +143,10 @@ const Header = () => {
                     </SheetClose>
                   ))}
                   <SheetClose asChild>
-                    <Button className="mt-8 py-6 flex items-center gap-2 text-lg">
+                    <Button
+                      onClick={() => window.open(resumeUrl, "_blank")} // Open PDF in new tab
+                      className="mt-8 py-6 flex items-center gap-2 text-lg"
+                    >
                       <FileText className="h-5 w-5" />
                       Download Resume
                     </Button>

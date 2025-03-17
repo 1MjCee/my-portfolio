@@ -109,7 +109,7 @@ const Projects = () => {
       title: "NLP Document Classifier",
       description:
         "A machine learning system that categorizes documents using advanced NLP techniques, improving document management efficiency by 78%.",
-      image: null, // Replace with actual image
+      image: null,
       githubUrl: "#",
       demoUrl: "#",
       skills: ["Python", "BERT", "FastAPI"],
@@ -177,6 +177,9 @@ const Projects = () => {
     { value: "ml", label: "Machine Learning" },
     { value: "nlp", label: "NLP" },
     { value: "cv", label: "Computer Vision" },
+    { value: "se", label: "Software Engineering" },
+    { value: "wb", label: "Web Development" },
+    { value: "ai", label: "Artificial Intelligence" },
   ];
 
   return (

@@ -22,7 +22,7 @@ const Hero = () => {
             </h1>
 
             <h2 className="text-2xl md:text-3xl font-medium text-slate-100">
-              AI Engineer | Data Scientist | ML Engineer
+              AI Engineer | Data Scientist | Software Engineer
             </h2>
 
             <p className="text-lg md:text-xl max-w-xl text-slate-200 leading-relaxed">

@@ -42,7 +42,7 @@ const About = () => {
   return (
     <section
       id="about"
-      className="w-full py-24 bg-gradient-to-b from-slate-50 to-white"
+      className="min-h-screen py-24 bg-gradient-to-b from-slate-50 to-white"
     >
       <div className="container max-w-screen-3xl mx-auto">
         <motion.div

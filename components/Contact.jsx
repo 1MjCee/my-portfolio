@@ -64,9 +64,9 @@ const Contact = () => {
   return (
     <section
       id="contact"
-      className="py-24 max-w-screen-xl bg-gradient-to-b from-slate-50 to-white"
+      className="py-24  bg-gradient-to-b justify-center from-slate-50 to-white"
     >
-      <div className="max-w-screen-xl mx-auto px-4 md:px-6 lg:px-8">
+      <div className=" mx-auto px-4 md:px-6 lg:px-8">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
